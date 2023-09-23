@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+.hometown-name {
+    background-image: url("../images/Casablanca.jpg");
+    background-size: cover;
+    width: auto;
+    height: 350px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.city-name {
+    text-shadow: 0 0 4px black;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 10px;
+    background-color: #4a0e4289;
+    display: block;
+}
+.city-center {
+    text-shadow: 0 0 4px black;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 10px;
+    background-color: #1D3557;
+    display: inline-block;
+}
+.img1 ,.img2 ,.img3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.city-activities {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #1D3557;
+    background-size: cover;
+
+}
+.act1 {
+    margin-right: 100px;
+}
+.act2 {
+    margin-right: 100px;
+}
+.ab {
+    color: #1D3557; 
+}
+
+
+.card {
+    margin: 0 auto;
+    width:500px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background: #ddebf8;
+    color: #1D3557;
+    box-shadow: 5px 5px lightblue;
+}
+.card-image {
+    width: 200px;
+    border-radius: 5px;
+}
+.act {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="stylesheet" href="score.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Home">
+            <h1 class="teamName">HOME:</h1>
+            <div class="containerpoint">
+                <p id="currentpointHome">0</p>
+            </div>
+            <div class="addpoints">
+                <button onclick="plusOneHome()" class="pluspoints">
+                    <p class="pluspoint" >+1</p>
+                </button>
+                <button onclick="plusTwoHome()" class="pluspoints">
+                    <p class="pluspoint" >+2</p>
+                </button>
+                <button onclick="plusThreeHome()" class="pluspoints">
+                    <p class="pluspoint" >+3</p>
+                </button>
+            </div>
+        </div>
+        <div class="Guest">
+            <h1 class="teamName">GUEST:</h1>
+            <div class="containerpoint">
+                <p id="currentpointGuest">0</p>
+            </div>
+            <div class="addpoints">
+                <button onclick="plusOneGuest()" class="pluspoints">
+                    <p class="pluspoint" >+1</p>
+                </button>
+                <button onclick="plusTwoGuest()" class="pluspoints">
+                    <p class="pluspoint" >+2</p>
+                </button>
+                <button onclick="plusThreeGuest()" class="pluspoints">
+                    <p class="pluspoint" >+3</p>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="score.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    margin: 0;
+}
+.images{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+        'one two'
+        'three four'
+         ;
+}
+.images img{
+    width: max-content;
+}
+.image1 {
+    grid-area: one;
+}
+.image2 {
+    grid-area: two;
+}
+.image3 {
+    grid-area: three;
+}
+.image4 {
+    grid-area: four;
+}
+@media screen and (max-width:700px) {
+    .images{
+        grid-template-areas:
+            'one'
+            'two'
+            'three'
+            'four'
+             ;
+    }
+
+}
